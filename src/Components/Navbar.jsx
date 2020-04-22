@@ -23,8 +23,8 @@ function NavbarSite() {
               </Nav.Link>
               <Nav.Link href="/">لینک</Nav.Link>
               <NavDropdown title="شبکه های اجتماعی" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">تلگرام</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="#action/3.1" className="dropdown-item">تلگرام</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2" className="dropdown-item">
                   اینستاگرام
                 </NavDropdown.Item>
               </NavDropdown>

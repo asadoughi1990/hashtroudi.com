@@ -1,33 +1,188 @@
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/          
+
 @font-face {
-  font-family: Naskh-Bold;
-  src: url("../font/Naskh-Bold.ttf");
+  font-family: BTitrBold;
+  src: url("../font/BTitrBold.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Iranian-Sans;
-  src: url("../font/Iranian Sans.ttf");
+  font-family: BNazanin;
+  src: url("../font/BNazanin.ttf");
   font-weight: normal;
   font-style: normal;
 }
+
+
+/*--------------------------------------------------------------
+Main
+--------------------------------------------------------------*/
 
 body {
-  font-family: Iranian-Sans, sans-serif;
+  font-family: BNazanin, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
 .header-top {
-  font-family: Naskh-Bold, sans-serif;
-  padding: 0.25rem 0;
-  height: 30px;
+  padding: 2px 0;
+  height: 34px;
   background-color: #004a99;
   color: white;
 }
 
-.navbar {
-  font-size: 16px;
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+.dropdown-item {
+  font-size: 20px;
 }
 
 .dropdown-toggle::after {
-  vertical-align: .1em;
+  vertical-align: 0;
 }
+
+
+/*--------------------------------------------------------------
+# Intro
+--------------------------------------------------------------*/
+
+.jumbotron .btn {
+  font-size: 1.5rem;
+}
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+  background: #00428a;
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-weight: normal;
+}
+
+#footer ul {
+  padding-inline-start: 0;
+  list-style-type: none;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer .email {
+  font-family: "Montserrat", sans-serif;
+}
+
+#footer .footer-top {
+  background: #004a99;
+  padding: 60px 0 0 0;
+}
+
+#footer .footer-links h3 {
+  margin-bottom: 20px;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: bold;
+}
+
+#footer .footer-top .footer-info p {
+  line-height: 24px;
+  margin-bottom: 0;
+  color: #ecf5ff;
+}
+
+#footer .social-links {
+  margin-left: 29px; 
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #0067d5;
+  color: #fff;
+}
+
+#footer .footer-top h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #ecf5ff;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #74b5fc;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h3 {
+  margin-bottom: 20px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
