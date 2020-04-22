@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Naskh-Bold;
+  src: url("../font/Naskh-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Iranian-Sans;
+  src: url("../font/Iranian Sans.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Iranian-Sans, sans-serif;
+}
+
+.header-top {
+  font-family: Naskh-Bold, sans-serif;
+  padding: 0.25rem 0;
+  height: 30px;
+  background-color: #004a99;
+  color: white;
+}
+
+.navbar {
+  font-size: 16px;
+}
+
+.dropdown-toggle::after {
+  vertical-align: .1em;
+}
