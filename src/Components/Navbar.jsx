@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function NavbarSite() {
   return (
@@ -18,14 +18,42 @@ function NavbarSite() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="/" className="active">
+              <AnchorLink href="#intro" className="nav-link active" offset="140">
                 صفحه اصلی
-              </Nav.Link>
-              <Nav.Link href="/">لینک</Nav.Link>
+              </AnchorLink>
+              <AnchorLink href="#learning" className="nav-link" offset="108">
+                آموزش
+              </AnchorLink>
+              <AnchorLink href="#class" className="nav-link" offset="108">
+                کلاس ها
+              </AnchorLink>
+
               <NavDropdown title="شبکه های اجتماعی" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1" className="dropdown-item">تلگرام</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2" className="dropdown-item">
+                <NavDropdown.Item
+                  href="https://t.me/drHashtroudiComplex"
+                  className="dropdown-item"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  تلگرام
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item
+                  href="http://instagram.com/drhashtroudi"
+                  className="dropdown-item"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   اینستاگرام
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item
+                  href="http://aparat.com/drhashtroudischool"
+                  className="dropdown-item"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  آپارات
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
