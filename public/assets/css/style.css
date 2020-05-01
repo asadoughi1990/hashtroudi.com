@@ -75,9 +75,18 @@ body {
 # Class
 --------------------------------------------------------------*/
 
-
 #class .aparat {
   float: left;
+}
+
+#class img {
+  max-height: 130px;
+}
+
+@media (max-width: 575px) {
+  #class img {
+    max-height: 300px;
+  }
 }
 
 
