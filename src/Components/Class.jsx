@@ -28,7 +28,11 @@ function Class() {
               />
               <div className="card-body">
                 <p className="card-text">
-                  <a href="https://www.aparat.com/v/jXwO4">
+                  <a
+                    href="https://www.aparat.com/v/jXwO4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     آموزش مساحت متوازی الاضلاع
                   </a>
                 </p>
@@ -71,7 +75,11 @@ function Class() {
               />
               <div className="card-body">
                 <p className="card-text">
-                  <a href="https://www.aparat.com/v/r45uC">
+                  <a
+                    href="https://www.aparat.com/v/r45uC"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     آینه های محدب و مقعر و تخت
                   </a>
                 </p>
@@ -86,7 +94,11 @@ function Class() {
               />
               <div className="card-body">
                 <p className="card-text">
-                  <a href="https://www.aparat.com/v/htoP0">
+                  <a
+                    href="https://www.aparat.com/v/htoP0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     زیست هفتم - دستگاه گرد مواد
                   </a>
                 </p>
@@ -101,7 +113,13 @@ function Class() {
               />
               <div className="card-body">
                 <p className="card-text">
-                  <a href="https://www.aparat.com/v/0WO29">ریاضی نهم فصل ششم</a>
+                  <a
+                    href="https://www.aparat.com/v/0WO29"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    ریاضی نهم فصل ششم
+                  </a>
                 </p>
               </div>
             </div>
@@ -114,7 +132,11 @@ function Class() {
               />
               <div className="card-body">
                 <p className="card-text">
-                  <a href="https://www.aparat.com/v/SIAy1?playlist=306722">
+                  <a
+                    href="https://www.aparat.com/v/SIAy1?playlist=306722"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     علوم هشتم مبحث نور و بازتاب نور
                   </a>
                 </p>
@@ -136,7 +158,13 @@ function Class() {
               />
               <div className="card-body">
                 <p className="card-text">
-                  <a href="https://www.aparat.com/v/sCHGy">شیمی دهم فصل سوم</a>
+                  <a
+                    href="https://www.aparat.com/v/sCHGy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    شیمی دهم فصل سوم
+                  </a>
                 </p>
               </div>
             </div>
@@ -149,7 +177,11 @@ function Class() {
               />
               <div className="card-body">
                 <p className="card-text">
-                  <a href="https://www.aparat.com/v/ESj2V">
+                  <a
+                    href="https://www.aparat.com/v/ESj2V"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     عربی : قواعد درس پنجم و ششم پایه یازدهم
                   </a>
                 </p>
@@ -164,7 +196,11 @@ function Class() {
               />
               <div className="card-body">
                 <p className="card-text">
-                  <a href="https://www.aparat.com/v/dLqxz">
+                  <a
+                    href="https://www.aparat.com/v/dLqxz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     هندسه دوازدهم فصل سوم
                   </a>
                 </p>
@@ -179,7 +215,11 @@ function Class() {
               />
               <div className="card-body">
                 <p className="card-text">
-                  <a href="https://www.aparat.com/v/AOkBp">
+                  <a
+                    href="https://www.aparat.com/v/AOkBp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     حسابان مبحث تابع نمایی و لگاریتمی
                   </a>
                 </p>

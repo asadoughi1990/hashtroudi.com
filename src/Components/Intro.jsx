@@ -7,9 +7,7 @@ function Intro() {
         <div className="jumbotron">
           <div className="container">
             <h1 className="display-4">آموزش آنلاین مجتمع دکتر هشترودی</h1>
-            <p className="lead"></p>
-            <hr className="my-4" />
-            <p>دسترسی به سامانه کاربری دانش آموزان مجتمع</p>
+            <p className="mt-5">دسترسی به سامانه کاربری دانش آموزان مجتمع</p>
             <a
               className="btn btn-primary btn-lg mr-3 mt-2"
               href="http://apps.fanavar.org/hashtroudi/web/index.html#/login/cred"

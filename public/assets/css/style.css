@@ -59,6 +59,14 @@ body {
 # Intro
 --------------------------------------------------------------*/
 
+@media (min-width: 1183px) {
+  .jumbotron {
+    background-image: url("../img/banner.jpeg");
+    background-size: cover;
+	  background-repeat: no-repeat;
+  }
+}
+
 .jumbotron .btn {
   font-size: 1.3rem;
 }
@@ -68,6 +76,9 @@ body {
 # Learning
 --------------------------------------------------------------*/
 
+#learning img {
+  max-height: 315px;
+}
 
 
 
