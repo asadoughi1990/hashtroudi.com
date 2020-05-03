@@ -40,23 +40,59 @@ function Class() {
             </div>
 
             <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+              <img
+                src="assets/img/dab2.jpeg"
+                className="card-img-top"
+                alt="dab2"
+              />
               <div className="card-body">
-                <p className="card-text">ریاضی</p>
+                <p className="card-text">
+                  <a
+                    href="https://www.aparat.com/v/Ry71V"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    آموزش الفبا
+                  </a>
+                </p>
               </div>
             </div>
 
             <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+              <img
+                src="assets/img/dab3.jpeg"
+                className="card-img-top"
+                alt="dab3"
+              />
               <div className="card-body">
-                <p className="card-text">جغرافیا</p>
+                <p className="card-text">
+                  <a
+                    href="https://www.aparat.com/v/eWNgP"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    مهارت های زندگی
+                  </a>
+                </p>
               </div>
             </div>
 
             <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+              <img
+                src="assets/img/dab4.jpeg"
+                className="card-img-top"
+                alt="dab4"
+              />
               <div className="card-body">
-                <p className="card-text">تاریخ</p>
+                <p className="card-text">
+                  <a
+                    href="https://www.aparat.com/v/1Y8ne"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    آموزش ریاضی
+                  </a>
+                </p>
               </div>
             </div>
           </div>
