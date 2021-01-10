@@ -7,24 +7,20 @@ function NavbarSite() {
     <React.Fragment>
       <Navbar bg="light" expand="lg" sticky="top">
         <div className="container">
-          <Navbar.Brand href="/">
-            <img
-              className="logo-default"
-              alt="مجتمع آموزشی دکتر هشترودی"
-              height="80"
-              src="assets/img/logo.png"
-            />
-          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              <AnchorLink href="#intro" className="nav-link active" offset="140">
+            <Nav className="mr-auto">
+              <AnchorLink
+                href="#intro"
+                className="nav-link active mr-3"
+                offset="140"
+              >
                 صفحه اصلی
               </AnchorLink>
-              <AnchorLink href="#learning" className="nav-link" offset="108">
+              <AnchorLink href="#learning" className="nav-link mr-3" offset="108">
                 آموزش
               </AnchorLink>
-              <AnchorLink href="#class" className="nav-link" offset="108">
+              <AnchorLink href="#class" className="nav-link mr-3" offset="108">
                 کلاس ها
               </AnchorLink>
 
@@ -58,6 +54,14 @@ function NavbarSite() {
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
+          <Navbar.Brand href="/">
+            <img
+              className="logo-default"
+              alt="مجتمع آموزشی دکتر هشترودی"
+              height="80"
+              src="assets/img/logo.png"
+            />
+          </Navbar.Brand>
         </div>
       </Navbar>
     </React.Fragment>

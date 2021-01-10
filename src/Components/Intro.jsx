@@ -6,7 +6,7 @@ function Intro() {
       <section id="intro">
         <div className="jumbotron">
           <div className="container">
-            <h1 className="display-4">آموزش آنلاین مجتمع دکتر هشترودی</h1>
+            <h1 className="display-5">آموزش آنلاین مجتمع دکتر هشترودی</h1>
             <p className="mt-5">دسترسی به سامانه کاربری کادر و دانش آموزان مجتمع</p>
             <a
               className="btn btn-primary btn-lg mr-3 mt-2"

@@ -70,7 +70,7 @@ Main
 
 body {
   font-family: "IRANSans";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -82,10 +82,19 @@ body {
 --------------------------------------------------------------*/
 
 .header-top {
-  padding: 2px 0;
   height: 34px;
-  background-color: #004a99;
+  background: linear-gradient(to right, rgb(9, 146, 192), green, blue);
   color: white;
+}
+
+.header-top .name {
+  float: right;
+  padding-top: 4px;
+}
+
+.header-top .vision {
+  float: left;
+  padding-top: 4px;
 }
 
 
@@ -94,7 +103,7 @@ body {
 --------------------------------------------------------------*/
 
 .dropdown-item {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .dropdown-toggle::after {
@@ -159,17 +168,23 @@ body {
   font-weight: normal;
 }
 
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+}
+
+#mapPopup {
+  font-family: "IRANSans";
+}
+
 #footer ul {
   padding-inline-start: 0;
   list-style-type: none;
 }
 
-#footer a {
-  color: white;
-}
-
 #footer .email {
   font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 #footer .footer-top {
