@@ -18,7 +18,7 @@ function Learning() {
                 imgSource={item.imgSource}
                 imgAlt={item.imgAlt}
                 videoLink={item.videoLink}
-                videoText={item.videoText}
+                // videoText={item.videoText}
               />
             );
           })}
