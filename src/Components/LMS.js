@@ -1,6 +1,6 @@
 import React from "react";
 
-function Intro() {
+function LMS() {
   return (
     <React.Fragment>
       <section id="intro">
@@ -23,4 +23,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default LMS;
