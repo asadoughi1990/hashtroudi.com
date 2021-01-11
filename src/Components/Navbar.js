@@ -11,17 +11,23 @@ function NavbarSite() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <AnchorLink
-                href="#intro"
+                href="#header"
                 className="nav-link active mr-3"
                 offset="140"
               >
                 صفحه اصلی
               </AnchorLink>
-              <AnchorLink href="#learning" className="nav-link mr-3" offset="108">
-                آموزش
+              <AnchorLink href="#grades" className="nav-link mr-3" offset="90">
+                مقاطع تحصیلی
               </AnchorLink>
-              <AnchorLink href="#class" className="nav-link mr-3" offset="108">
-                کلاس ها
+              <AnchorLink href="#about" className="nav-link mr-3" offset="90">
+                درباره ما
+              </AnchorLink>
+              <AnchorLink href="#lms" className="nav-link mr-3" offset="90">
+                آموزش آنلاین
+              </AnchorLink>
+              <AnchorLink href="#video" className="nav-link mr-3" offset="90">
+                ویدیوها
               </AnchorLink>
 
               <NavDropdown title="شبکه های اجتماعی" id="basic-nav-dropdown">
