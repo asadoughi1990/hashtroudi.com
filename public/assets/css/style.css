@@ -128,10 +128,13 @@ body {
   vertical-align: 0;
 }
 
-
 /*--------------------------------------------------------------
-# Intro
+# LMS
 --------------------------------------------------------------*/
+
+#lms {
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+}
 
 @media (min-width: 1183px) {
   .jumbotron {
@@ -146,12 +149,96 @@ body {
 }
 
 /*--------------------------------------------------------------
+# Video
+--------------------------------------------------------------*/
+
+#video {
+  background: #fff;
+  padding: 20px 0 40px 0;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+#video .video-header {
+  color: white;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    #240fd3,
+    #004ce5,
+    #006ce7,
+    #0086df,
+    #009cd2,
+    #00a0d0,
+    #00a4ce,
+    #00a7cb,
+    #009dd3,
+    #0091d9,
+    #0083db,
+    #3d73d8
+  );
+}
+
+.h_iframe-aparat_embed_frame {
+  position: relative;
+}
+.h_iframe-aparat_embed_frame .ratio {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.h_iframe-aparat_embed_frame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+#about {
+  background: lightgrey;
+  padding: 20px 0;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#about .about-text {
+  padding: 20px 0;
+}
+
+/*--------------------------------------------------------------
+# Grades
+--------------------------------------------------------------*/
+
+#grades {
+  background: white;
+  padding: 35px 0;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#grades .grades-header {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
 #footer {
   background: #00428a;
-  padding: 0 0 30px 0;
   color: #eee;
   font-weight: normal;
 }
@@ -271,5 +358,6 @@ body {
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

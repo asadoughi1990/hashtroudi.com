@@ -3,7 +3,7 @@ import React from "react";
 function LMS() {
   return (
     <React.Fragment>
-      <section id="intro">
+      <section id="lms">
         <div className="jumbotron">
           <div className="container">
             <h1 className="display-5">آموزش آنلاین مجتمع دکتر هشترودی</h1>

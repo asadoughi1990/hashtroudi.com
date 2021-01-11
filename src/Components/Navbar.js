@@ -58,7 +58,7 @@ function NavbarSite() {
             <img
               className="logo-default"
               alt="مجتمع آموزشی دکتر هشترودی"
-              height="80"
+              height="70"
               src="assets/img/logo.png"
             />
           </Navbar.Brand>

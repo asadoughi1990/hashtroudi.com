@@ -20,18 +20,6 @@ class Footer extends Component {
           <div className="footer-top">
             <div className="container">
               <div className="row">
-                <div className="col-lg-4 col-md-6 footer-info">
-                  <MapContainer center={position} zoom={this.state.zoom}>
-                    <TileLayer
-                      attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                    />
-                    <Marker position={position}>
-                      <Popup>مجتمع دکتر هشترودی</Popup>
-                    </Marker>
-                  </MapContainer>
-                </div>
-
                 <div className="col-lg-3 col-md-6 footer-links">
                   <h3 className="display-5">پیوند ها</h3>
                   <ul>
@@ -152,6 +140,17 @@ class Footer extends Component {
                       <i className="fa fa-telegram"></i>
                     </a>
                   </div>
+                </div>
+                <div className="col-lg-4 col-md-6 footer-info">
+                  <MapContainer center={position} zoom={this.state.zoom}>
+                    <TileLayer
+                      attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    />
+                    <Marker position={position}>
+                      <Popup>مجتمع دکتر هشترودی</Popup>
+                    </Marker>
+                  </MapContainer>
                 </div>
               </div>
             </div>
