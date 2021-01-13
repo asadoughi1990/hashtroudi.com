@@ -9,13 +9,28 @@ const grades = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <Card />
+            <Card
+              header="دبستان"
+              color="blue"
+              imgSrc="assets/img/primary.jpg"
+              target="http://dabestan.drhashtroudi.ir/"
+            />
           </div>
           <div className="col">
-            <Card />
+            <Card
+              header="متوسطه اول"
+              color="green"
+              imgSrc="assets/img/high1.jpg"
+              target="http://dore1.drhashtroudi.ir/"
+            />
           </div>
           <div className="col">
-            <Card />
+            <Card
+              header="متوسطه دوم"
+              color="#187bcd"
+              imgSrc="assets/img/high2.jpg"
+              target="http://dore2.drhashtroudi.ir/"
+            />
           </div>
         </div>
       </div>
