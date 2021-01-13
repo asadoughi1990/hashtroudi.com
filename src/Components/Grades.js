@@ -8,7 +8,7 @@ const grades = () => {
       <div className="grades-header">ورود به مقاطع تحصیلی مجتمع</div>
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col-md-4 mb-3">
             <Card
               header="دبستان"
               color="blue"
@@ -16,7 +16,7 @@ const grades = () => {
               target="http://dabestan.drhashtroudi.ir/"
             />
           </div>
-          <div className="col">
+          <div className="col-md-4 mb-3">
             <Card
               header="متوسطه اول"
               color="green"
@@ -24,7 +24,7 @@ const grades = () => {
               target="http://dore1.drhashtroudi.ir/"
             />
           </div>
-          <div className="col">
+          <div className="col-md-4 mb-3">
             <Card
               header="متوسطه دوم"
               color="#187bcd"

@@ -3,7 +3,6 @@ import React from "react";
 const about = () => {
   return (
     <section id="about">
-      <img src="assets/img/madrese.gif" className="img-fluid" alt="about" />
       <div className="container">
         <div className="about-text">
           چشم انداز مجتمع فرهنگی آموزشی دکتر هشتـرودی تربیت شهروندان مطلوب، یعنی
@@ -14,6 +13,7 @@ const about = () => {
           کسب قدرت اســت و هنر و اخلاق راهگشای سعادت بشر.
         </div>
       </div>
+      <img src="assets/img/madrese.gif" className="img-fluid" alt="about" />
     </section>
   );
 };
