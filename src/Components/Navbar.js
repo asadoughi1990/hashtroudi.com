@@ -5,7 +5,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 function NavbarSite() {
   return (
     <React.Fragment>
-      <Navbar bg="light" expand="lg" sticky="top">
+      <Navbar className="color-nav" expand="lg" sticky="top">
         <div className="container">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

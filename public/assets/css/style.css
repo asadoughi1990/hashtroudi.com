@@ -102,7 +102,7 @@ body {
 
 .header-top {
   height: 34px;
-  background: linear-gradient(to right, rgb(9, 146, 192), green, blue);
+  background: linear-gradient(to right, #464866, #25274d);
   color: white;
 }
 
@@ -125,6 +125,10 @@ body {
 /*--------------------------------------------------------------
 # Navbar
 --------------------------------------------------------------*/
+
+.color-nav {
+  background-color: #f4fbfc;
+}
 
 .dropdown-item {
   font-size: 16px;
@@ -174,28 +178,20 @@ body {
   text-align: center;
   background-image: linear-gradient(
     to right,
-    #240fd3,
-    #004ce5,
-    #006ce7,
-    #0086df,
-    #009cd2,
-    #00a0d0,
-    #00a4ce,
-    #00a7cb,
-    #009dd3,
-    #0091d9,
-    #0083db,
-    #3d73d8
+    #aaabb8,
+    #25274d,
+    #464866,
+    #25274d,
+    #aaabb8
   );
 }
-
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 
 #about {
-  background: #004A99;
+  background: #25274d;
   padding: 20px 0;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -204,6 +200,11 @@ body {
 #about .about-text {
   padding: 20px 0;
   color: white;
+}
+
+#about .about-gif {
+  -webkit-box-shadow: 10px 6px 28px 6px #000000;
+  box-shadow: 10px 6px 28px 6px #000000;
 }
 
 /*--------------------------------------------------------------
@@ -225,13 +226,12 @@ body {
   text-align: center;
 }
 
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #464866;
   color: #eee;
   font-weight: normal;
 }
@@ -256,7 +256,7 @@ body {
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #25274d;
   padding: 60px 0 0 0;
 }
 

@@ -11,7 +11,7 @@ const grades = () => {
           <div className="col-md-4 mb-3">
             <Card
               header="دبستان"
-              color="blue"
+              color="#464866"
               imgSrc="assets/img/primary.jpg"
               target="http://dabestan.drhashtroudi.ir/"
             />
@@ -19,7 +19,7 @@ const grades = () => {
           <div className="col-md-4 mb-3">
             <Card
               header="متوسطه اول"
-              color="green"
+              color="#29648A"
               imgSrc="assets/img/high1.jpg"
               target="http://dore1.drhashtroudi.ir/"
             />
@@ -27,7 +27,7 @@ const grades = () => {
           <div className="col-md-4 mb-3">
             <Card
               header="متوسطه دوم"
-              color="#187bcd"
+              color="#376E6F"
               imgSrc="assets/img/high2.jpg"
               target="http://dore2.drhashtroudi.ir/"
             />
