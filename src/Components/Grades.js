@@ -12,7 +12,7 @@ const grades = () => {
             <Card
               header="دبستان"
               color="#464866"
-              imgSrc="assets/img/primary.jpg"
+              imgSrc="assets/img/dabestan.jpg"
               target="http://dabestan.drhashtroudi.ir/"
             />
           </div>
@@ -20,7 +20,7 @@ const grades = () => {
             <Card
               header="متوسطه اول"
               color="#29648A"
-              imgSrc="assets/img/high1.jpg"
+              imgSrc="assets/img/mot1.jpg"
               target="http://dore1.drhashtroudi.ir/"
             />
           </div>
@@ -28,7 +28,7 @@ const grades = () => {
             <Card
               header="متوسطه دوم"
               color="#376E6F"
-              imgSrc="assets/img/high2.jpg"
+              imgSrc="assets/img/mot2.jpg"
               target="http://dore2.drhashtroudi.ir/"
             />
           </div>

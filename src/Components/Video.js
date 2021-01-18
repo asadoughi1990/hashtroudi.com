@@ -3,7 +3,7 @@ import React from "react";
 const video = () => {
   return (
     <section id="video">
-      <div className="video-header">آشنایی با برخی فعالیت های مجتمع</div>
+      <div className="video-header">معرفی اجمالی مجتمع دکتر هشترودی</div>
       <div className="container">
         <div className="row">
           <div className="col-md-4">
