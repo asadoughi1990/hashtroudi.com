@@ -6,8 +6,7 @@ function Header() {
       <div className="header-top">
         <div className="container">
           <div className="name">
-            <i className="fa fa-graduation-cap mr-1"></i> مجتمع فرهنگی آموزشی
-            دکتر هشترودی
+            <i className="fa fa-graduation-cap mr-1"></i> پردیس مجتمع فرهنگی آموزشی دکتر هشترودی
           </div>
           <div className="vision">مدرسه ای متفاوت</div>
         </div>
