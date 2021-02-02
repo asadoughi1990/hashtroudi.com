@@ -101,7 +101,13 @@ class Footer extends Component {
                     <li>
                       <p>
                         <i className="fa fa-phone"></i> <strong>تلفن: </strong>{" "}
-                        7- 88255955
+                        7 - 88255955
+                      </p>
+                      <p>
+                        مسئول ثبت نام آنلاین دبستان: 09397533918
+                      </p>
+                      <p>
+                        مسئول ثبت نام آنلاین متوسطه: 09355745158
                       </p>
                     </li>
                     <li>

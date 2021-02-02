@@ -58,6 +58,9 @@ function NavbarSite() {
                   آپارات
                 </NavDropdown.Item>
               </NavDropdown>
+              <AnchorLink href="#footer" className="nav-link mr-3" offset="90">
+                تماس با ما
+              </AnchorLink>
             </Nav>
           </Navbar.Collapse>
           <Navbar.Brand href="/">
