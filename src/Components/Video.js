@@ -92,16 +92,56 @@ const video = () => {
           ></iframe>
 
           <iframe
-            title="جوانان پژوهشگر"
-            src="https://www.aparat.com/video/video/embed/videohash/gOueh/vt/frame"
+            title="عکس های جشنواره ها"
+            src="https://www.aparat.com/video/video/embed/videohash/4a2IQ/vt/frame"
             allowFullScreen={true}
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
           ></iframe>
 
           <iframe
-            title="بازارچه کارآفرینی"
-            src="https://www.aparat.com/video/video/embed/videohash/43X2z/vt/frame"
+            title="گزارش جشنواره دست سازه های دانش آموزی"
+            src="https://www.aparat.com/video/video/embed/videohash/I1Or5/vt/frame"
+            allowFullScreen={true}
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+          ></iframe>
+
+          <iframe
+            title="گروه موسیقی با سرپرستی روزبه زرعی"
+            src="https://www.aparat.com/video/video/embed/videohash/EathF/vt/frame"
+            allowFullScreen={true}
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+          ></iframe>
+
+          <iframe
+            title="گزارش جشنواره کارآفرینی (بخش اول)"
+            src="https://www.aparat.com/video/video/embed/videohash/efU5k/vt/frame"
+            allowFullScreen={true}
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+          ></iframe>
+
+          <iframe
+            title="بخش پایانی جشنواره کارآفرینی (بخش دوم)"
+            src="https://www.aparat.com/video/video/embed/videohash/oM1OH/vt/frame"
+            allowFullScreen={true}
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+          ></iframe>
+
+          <iframe
+            title="علم بهتر است یا ثروت ؟"
+            src="https://www.aparat.com/video/video/embed/videohash/RJqL9/vt/frame"
+            allowFullScreen={true}
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+          ></iframe>
+
+          <iframe
+            title="مصاحبه صدا و سیما با رئیس هیئت مدیره مجتمع"
+            src="https://www.aparat.com/video/video/embed/videohash/OrZ1F/vt/frame"
             allowFullScreen={true}
             webkitallowfullscreen="true"
             mozallowfullscreen="true"

@@ -249,6 +249,10 @@ body {
   font-family: "IRANSans";
 }
 
+#footer .aparat-logo {
+  border-radius: 50%;
+}
+
 #footer ul {
   padding-inline-start: 0;
   list-style-type: none;

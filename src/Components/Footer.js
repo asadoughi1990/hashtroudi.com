@@ -103,12 +103,8 @@ class Footer extends Component {
                         <i className="fa fa-phone"></i> <strong>تلفن: </strong>{" "}
                         7 - 88255955
                       </p>
-                      <p>
-                        مسئول ثبت نام آنلاین دبستان: 09397533918
-                      </p>
-                      <p>
-                        مسئول ثبت نام آنلاین متوسطه: 09355745158
-                      </p>
+                      <p>مسئول ثبت نام آنلاین دبستان: 09397533918</p>
+                      <p>مسئول ثبت نام آنلاین متوسطه: 09355745158</p>
                     </li>
                     <li>
                       <p>
@@ -144,6 +140,20 @@ class Footer extends Component {
                       className="telegram"
                     >
                       <i className="fa fa-telegram"></i>
+                    </a>
+
+                    <a
+                      href="http://aparat.com/drhashtroudischool"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="aparat"
+                    >
+                      <img
+                        className="aparat-logo"
+                        alt="aparat-logo"
+                        height="20"
+                        src="assets/img/aparat.jpg"
+                      />
                     </a>
                   </div>
                 </div>

@@ -10,27 +10,10 @@ function NavbarSite() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <AnchorLink
-                href="#header"
-                className="nav-link active mr-3"
-                offset="140"
-              >
+              <Nav.Link href="/" className="nav-link active mr-3">
                 صفحه اصلی
-              </AnchorLink>
-              <AnchorLink href="#grades" className="nav-link mr-3" offset="90">
-                مقاطع تحصیلی
-              </AnchorLink>
-              <AnchorLink href="#about" className="nav-link mr-3" offset="90">
-                درباره ما
-              </AnchorLink>
-              <AnchorLink href="#lms" className="nav-link mr-3" offset="90">
-                آموزش آنلاین
-              </AnchorLink>
-              <AnchorLink href="#video" className="nav-link mr-3" offset="90">
-                ویدیوها
-              </AnchorLink>
-              {/* /gallery */}
-              <Nav.Link href="#header" className="nav-link mr-3">
+              </Nav.Link>
+              <Nav.Link href="/gallery" className="nav-link mr-3">
                 افتخارات
               </Nav.Link>
               <AnchorLink href="#footer" className="nav-link mr-3" offset="90">
