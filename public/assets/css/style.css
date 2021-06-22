@@ -169,7 +169,7 @@ body {
   text-align: center;
 }
 
-#video .video-header {
+.video-header {
   color: white;
   font-size: 25px;
   padding-top: 10px;
@@ -187,7 +187,12 @@ body {
 }
 
 #video .carousel-container {
-  direction: ltr !important; 
+  direction: ltr !important;
+}
+
+.new-year iframe {
+  display: block;
+  margin: 0 auto;
 }
 
 /*--------------------------------------------------------------
